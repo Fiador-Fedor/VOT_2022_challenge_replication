@@ -1,11 +1,12 @@
 #ifndef COLOTRACKER_H
 #define COLOTRACKER_H
 
-#include "cv.h"
-#include "highgui.h"
-#include "region.h"
-#include "histogram.h"
-#include <iostream>
+#include <opencv2/opencv.hpp>
+#include <opencv2/opencv.hpp>     // General OpenCV functions
+#include <opencv2/highgui.hpp>     // For GUI functions like imshow, waitKey
+#include "region.h"                // Custom header (no change needed here)
+#include "histogram.h"             // Custom header (no change needed here)
+#include <iostream>   
 
 
 //#define SHOWDEBUGWIN

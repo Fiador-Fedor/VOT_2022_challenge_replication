@@ -1,0 +1,7 @@
+/Users/samuel/asms/build/CMakeFiles/asms_vot.dir
+/Users/samuel/asms/build/CMakeFiles/asms_demo.dir
+/Users/samuel/asms/build/CMakeFiles/edit_cache.dir
+/Users/samuel/asms/build/CMakeFiles/rebuild_cache.dir
+/Users/samuel/asms/build/src/CMakeFiles/color.dir
+/Users/samuel/asms/build/src/CMakeFiles/edit_cache.dir
+/Users/samuel/asms/build/src/CMakeFiles/rebuild_cache.dir

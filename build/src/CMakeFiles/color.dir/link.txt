@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libcolor.a CMakeFiles/color.dir/colotracker.cpp.o CMakeFiles/color.dir/histogram.cpp.o CMakeFiles/color.dir/region.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libcolor.a

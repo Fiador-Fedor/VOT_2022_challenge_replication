@@ -17,7 +17,7 @@ int main(int, char **)
     //load region, images and prepare for output
     VOT vot_io("region.txt", "images.txt", "output.txt");
     
-    //img = firts frame, initPos = initial position in the first frame
+    //img = first frame, initPos = initial position in the first frame
     cv::Rect init_rect = vot_io.getInitRectangle();
     vot_io.outputBoundingBox(init_rect);
     vot_io.getNextImage(image);
@@ -32,7 +32,7 @@ int main(int, char **)
         double time_profile_counter = cv::getCPUTickCount();
         BBox * bb = tracker.track(image);
         time_profile_counter = cv::getCPUTickCount() - time_profile_counter;
-        average_speed_ms += time_profile_counter/((double)cvGetTickFrequency()*1000);
+        average_speed_ms += time_profile_counter/((double)cv::getTickFrequency()*1000);
         num_frames += 1.0;
 
         if (bb != NULL){
